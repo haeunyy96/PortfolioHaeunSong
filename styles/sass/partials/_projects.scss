@@ -1,0 +1,89 @@
+.projectsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.projectsList {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectsImages {
+    width: 45%;
+    height: 300px;
+    background-color: $quinary ;
+    border-radius: 8px 8px;
+    padding: 30px 0 0 30px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        border-radius: 15px 0 0 0;
+
+    }
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transform: scale(105%);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+}
+
+.projectsTexts {
+    width: 50%;
+    margin-left: 30px;
+
+    hr {
+        margin-top: 10px;
+    }
+
+    button {
+        border-radius: 20px 20px;
+        padding: 8px 20px;
+        border: 2px solid $secondary;
+        background-color: $secondary;
+        margin: 15px 8px 0 0;
+
+        &:hover,
+        &:focus {
+            transform: scale(110%);
+            transition: 0.4s;
+        }
+
+        a {
+            font-size: 0.7rem;
+            letter-spacing: 0.05;
+            color: $primary;
+        }
+    }
+    h2 {
+        margin: 6px 0 15px 0;
+        color: $quaternary;
+    }
+    span {
+        padding: 2px 12px;
+        margin-right: 5px;
+        background-color: $quinary;
+        border-radius: 15px 15px;
+    }
+}
+
+.projectDescription {
+    margin-top: 18px;
+    font-size: 0.85rem;
+}
+.projectDate {
+    color: $tertiary;
+}
+.viewlivebtn {
+    background-color: $primary !important;
+    a {
+        color: $secondary !important;
+    }
+}
