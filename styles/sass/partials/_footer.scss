@@ -1,0 +1,44 @@
+.footer {
+    background-color: $secondary;
+    color: $primary;
+    padding: 40px 0;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerbtn {
+    margin: 0;
+    background-color: transparent;
+    border: 2px solid $primary;
+    border-radius: 20px 20px;
+
+    a {
+        color: $primary;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $primary;
+        transition: 0.3s;
+        a {
+            color: $secondary;
+        }
+    }
+}
+
+.socials {
+    text-align: right;
+    i {
+        color: $primary;
+        padding: 0 0 10px 20px;
+
+        &:hover,
+        &:focus {
+            color: $tertiary;
+            transition: 0.3s;
+        }
+    }
+}

@@ -22,6 +22,18 @@
 }
 
 // arrow activation
+.arrowDiv,
+.upArrowDiv {
+    img {
+        width: 8%;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+        }
+    }
+}
+
 .arrowDiv {
     text-align: center;
 
@@ -34,16 +46,13 @@
         &:hover,
         &:focus {
             cursor: pointer;
+            transform: scale(105%);
+            transition: 0.4s;
         }
     }
 
-    img {
-        width: 8%;
-
-        &:hover,
-        &:focus {
-            cursor: pointer;
-        }
+    a {
+        color: $secondary;
     }
 }
 

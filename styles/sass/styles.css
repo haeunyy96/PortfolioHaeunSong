@@ -385,6 +385,16 @@ button:hover, button:focus {
   color: #405082;
 }
 
+.arrowDiv img,
+.upArrowDiv img {
+  width: 8%;
+}
+.arrowDiv img:hover, .arrowDiv img:focus,
+.upArrowDiv img:hover,
+.upArrowDiv img:focus {
+  cursor: pointer;
+}
+
 .arrowDiv {
   text-align: center;
 }
@@ -396,12 +406,11 @@ button:hover, button:focus {
 }
 .arrowDiv h4:hover, .arrowDiv h4:focus {
   cursor: pointer;
+  transform: scale(105%);
+  transition: 0.4s;
 }
-.arrowDiv img {
-  width: 8%;
-}
-.arrowDiv img:hover, .arrowDiv img:focus {
-  cursor: pointer;
+.arrowDiv a {
+  color: #405082;
 }
 
 .fold {
@@ -442,6 +451,9 @@ button:hover, button:focus {
 .aboutNav {
   color: #B0B0B0;
 }
+.aboutNav:hover, .aboutNav:focus {
+  color: #405082;
+}
 
 .resumeBtn {
   margin: 0;
@@ -451,6 +463,9 @@ button:hover, button:focus {
 }
 .resumeBtn a {
   color: #fff;
+}
+.resumeBtn:hover, .resumeBtn:focus {
+  transform: scale(110%);
 }
 
 hr {
@@ -477,17 +492,21 @@ hr {
   align-items: center;
 }
 
+.lastList {
+  padding-bottom: 50px;
+}
+
 .projectsImages {
   width: 45%;
-  height: 300px;
+  height: 270px;
   background-color: #ECECEC;
   border-radius: 8px 8px;
-  padding: 30px 0 0 30px;
+  padding: 20px 20px 0 20px;
   overflow: hidden;
 }
 .projectsImages img {
   width: 100%;
-  border-radius: 15px 0 0 0;
+  border-radius: 10px 10px 0 0;
 }
 .projectsImages:hover, .projectsImages:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -544,4 +563,51 @@ hr {
 }
 .viewlivebtn a {
   color: #405082 !important;
+}
+
+.upArrowDiv {
+  text-align: right;
+}
+.upArrowDiv img {
+  transform: rotate(180deg);
+}
+
+.footer {
+  background-color: #405082;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footerFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerbtn {
+  margin: 0;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px 20px;
+}
+.footerbtn a {
+  color: #fff;
+}
+.footerbtn:hover, .footerbtn:focus {
+  background-color: #fff;
+  transition: 0.3s;
+}
+.footerbtn:hover a, .footerbtn:focus a {
+  color: #405082;
+}
+
+.socials {
+  text-align: right;
+}
+.socials i {
+  color: #fff;
+  padding: 0 0 10px 20px;
+}
+.socials i:hover, .socials i:focus {
+  color: #B0B0B0;
+  transition: 0.3s;
 }/*# sourceMappingURL=styles.css.map */

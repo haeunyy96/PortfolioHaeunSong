@@ -19,11 +19,16 @@
         letter-spacing: 0.1rem;
     }
 }
+
 .portfolioNav {
     color: $quaternary;
 }
 .aboutNav {
     color: $tertiary;
+    &:hover,
+    &:focus {
+        color: $secondary;
+    }
 }
 .resumeBtn {
     margin: 0;
@@ -33,6 +38,11 @@
 
     a {
         color: $primary;    
+    }
+
+    &:hover,
+    &:focus {
+        transform: scale(110%);
     }
 }
 

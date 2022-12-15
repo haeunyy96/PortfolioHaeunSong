@@ -16,7 +16,7 @@
     <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <nav>
+    <nav id="top">
         <div class="wrapper navBar">
             <h3><a class="logo" href="index.html">hs</a></h3>
             <ul class="navList">
@@ -58,8 +58,8 @@
             </div>
         </div>
         <div class="arrowDiv">
-            <h4>See my projects</h4>
-            <a href="#about"><img class="downArrow" src="assets/Animated-Down-Arrow.gif" alt=""></a>
+            <h4><a href="#projects">See my projects</a></h4>
+            <a href="#projects"><img class="downArrow" src="assets/Animated-Down-Arrow.gif" alt=""></a>
         </div>
     </header>
     <main>
@@ -94,7 +94,7 @@
                             <button class="viewlivebtn"><a href="https://eloquent-cassata-0cf9d4.netlify.app/">View Live ↗</a></button>
                         </div>
                     </li>
-                    <li class="projectsList">
+                    <li class="projectsList lastList">
                         <div class="projectsImages">
                             <a href=""><img src="assets/diceroller.png" alt=""></a>
                         </div>
@@ -110,11 +110,23 @@
 
                     </li>
                 </ul>
+                <div class="upArrowDiv">
+                    <a href="#top"><img class="upArrow" src="assets/Animated-Down-Arrow.gif" alt=""></a>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="wrapper footerFlex">
+            <div>
+                <button class="footerbtn"><a href="about.html">Get in Touch!</a></button>
+            </div>
+            <div class="socials">
+                <a href="mailto:haeunsong0615@gmail.com"><i class="far fa-envelope-open" aria-hidden="true"></i></a><a href="https://github.com/haeunyy96"><i class="fab fa-github" aria-hidden="true"></i></a><a href=https://www.linkedin.com/in/haeun--song><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <p>© Haeun Song, 2022</p>
+            </div>
 
+        </div>
     </footer>
     <script src="index.js"></script>
 </body>
