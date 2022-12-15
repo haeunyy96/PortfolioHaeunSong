@@ -1,0 +1,28 @@
+.wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: $secondaryFont;
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        transition: 0.4s;
+    }
+}
