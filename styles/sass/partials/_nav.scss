@@ -28,6 +28,7 @@
     &:hover,
     &:focus {
         color: $secondary;
+        transition: 0.3s;
     }
 }
 .resumeBtn {

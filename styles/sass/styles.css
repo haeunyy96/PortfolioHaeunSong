@@ -311,6 +311,7 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
+  color: #405082;
 }
 
 h3 {
@@ -453,6 +454,7 @@ button:hover, button:focus {
 }
 .aboutNav:hover, .aboutNav:focus {
   color: #405082;
+  transition: 0.3s;
 }
 
 .resumeBtn {
@@ -476,6 +478,33 @@ hr {
 .menuIcon,
 .slideOutNav {
   display: none;
+}
+
+.aboutDiv {
+  background-color: #fff;
+  padding: 100px 100px;
+}
+.aboutDiv h2 {
+  margin-bottom: 50px;
+}
+
+.aboutFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutFlex .aboutText {
+  width: 60%;
+}
+.aboutFlex .aboutImage {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutFlex .aboutImage img {
+  max-width: 100%;
+  border-radius: 100%;
 }
 
 .projectsFlex {

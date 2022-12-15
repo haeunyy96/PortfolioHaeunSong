@@ -1,0 +1,30 @@
+.aboutDiv {
+    background-color: $primary;
+    padding: 100px 100px;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+}
+
+.aboutFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .aboutText {
+        width: 60%;
+    }
+
+    .aboutImage {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            border-radius: 100%;
+        }
+    }
+}

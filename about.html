@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Haeun Song</title>
+    <title>Haeun Song</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./styles/sass/styles.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d7e854893f.js" crossorigin="anonymous"></script>
+    <!-- devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon.ico">
 </head>
-<body>
-    <nav>
 
+<body>
+    <nav id="top">
+        <div class="wrapper navBar">
+            <h3><a class="logo" href="index.html">hs</a></h3>
+            <ul class="navList">
+                <li><a class="portfolioNav" href="index.html">Portfolio</a></li>
+                <li><a class="aboutNav" href=about.html>About</a></li>
+                <li><button class="resumeBtn"><a href="assets/Haeun_Song_Resume.pdf">My resume ↗</a></button></li>
+            </ul>
+            <button class="menuIcon" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="slideOutNav">
+                <button id="menuClose">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+                <nav>
+                    <ul class="mainMenu">
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href=about.html>About</a></li>
+                        <li><button><a href="assets/Haeun_Song_Resume.pdf">My resume ↗</a></button></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- END--slideOutNav -->
+        </div>
+        <!-- END--navBar -->
     </nav>
+    <hr class="wrapper" />
     <main>
-        
+        <section class="about" id="about">
+            <div class="wrapper aboutDiv">
+                <h2>About me.</h2>
+                <div class="aboutFlex">
+                    <div class="aboutImage">
+                        <img src="assets/profile.JPEG" alt="">
+                    </div>
+                    <div class="aboutText">
+                        <h4>HELLO, my name is Haeun.</h4>
+                        <br>
+                        <p>I am a software developer who creates functional and responsive digital products using HTML5, CSS3, JavaScript, React, and API integrations. I am currently studying at <a href="https://junocollege.com/">Juno College of Technology</a>, in process of completing the Web Development Bootcamp.</p>
+                        <br>
+                        <p>Outside of bootcamp, I am an anatomist at <a href="https://surgery.utoronto.ca/division-anatomy">University of Toronto</a>, and a pediatric registered nurse -- providing care, education and support for students, patients and family.</p>
+                        <br>
+                        <p> Although very goal driven, I am a big advocate for work-life balance, and if I'm not working, I am probably sitting under a palm tree drinking piña colada!🍸</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
