@@ -1,0 +1,47 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 15px 0;
+    align-items: flex-start;
+}
+.logo {
+    font-family: $tertiaryFont;
+    font-size: 1.5rem;
+    color: $secondary;
+    padding-top: 5px;
+}
+.navList {
+    display: flex;
+    align-items: center;
+
+    li {
+        padding-left: 20px;
+        letter-spacing: 0.1rem;
+    }
+}
+.portfolioNav {
+    color: $quaternary;
+}
+.aboutNav {
+    color: $tertiary;
+}
+.resumeBtn {
+    margin: 0;
+    background-color: $secondary;
+    border: none;
+    border-radius: 4px 4px;
+
+    a {
+        color: $primary;    
+    }
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted $tertiary;
+}
+// slideOutNav
+.menuIcon,
+.slideOutNav {
+    display: none;
+}

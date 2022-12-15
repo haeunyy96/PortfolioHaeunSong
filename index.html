@@ -5,19 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haeun Song</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./styles/sass/styles.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d7e854893f.js" crossorigin="anonymous"></script>
+    <!-- devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
     <nav>
-
+        <div class="wrapper navBar">
+            <h3><a class="logo" href="index.html">hs</a></h3>
+            <ul class="navList">
+                <li><a class="portfolioNav" href="index.html">Portfolio</a></li>
+                <li><a class="aboutNav" href=about.html>About</a></li>
+                <li><button class="resumeBtn"><a href="assets/Haeun_Song_Resume.pdf">My resume ↗</a></button></li>
+            </ul>
+            <button class="menuIcon" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="slideOutNav">
+                <button id="menuClose">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+                <nav>
+                    <ul class="mainMenu">
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href=about.html>About</a></li>
+                        <li><button><a href="assets/Haeun_Song_Resume.pdf">My resume ↗</a></button></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- END--slideOutNav -->
+        </div>
+        <!-- END--navBar -->
     </nav>
+    <hr class="wrapper" />
     <header>
-
+        <div class="wrapper">
+            <div class="header">
+                <div class="headerPhoto">
+                    <img src="assets/headerphoto.jpg" alt="">
+                </div>
+                <div class="headerText">
+                    <h1>Hi,</h1>
+                    <h1>I am <span>Haeun.</span></h1>
+                    <h3>A Toronto based web developer.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="arrowDiv">
+            <h4>See my projects</h4>
+            <a href="#about"><img class="downArrow" src="assets/Animated-Down-Arrow.gif" alt=""></a>
+        </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
     <script src="index.js"></script>
 </body>

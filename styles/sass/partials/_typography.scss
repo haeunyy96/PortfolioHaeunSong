@@ -11,7 +11,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+button {
     margin: 0;
 }
 
@@ -23,19 +24,20 @@ h4 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
 }
 
 h2 {
-    font-size: 2.5rem;
-}
-
-h3 {
     font-size: 2rem;
 }
 
-h4 {
+h3 {
     font-size: 1.25rem;
+    color: $tertiary;
+}
+
+h4 {
+    font-size: 1rem;
 }
 
 p {

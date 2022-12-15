@@ -1,0 +1,56 @@
+.header {
+    margin: 100px 0 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerPhoto {
+    width: 48%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.headerText {
+    width: 48%;
+}
+
+span {
+    color: $secondary;
+}
+
+// arrow activation
+.arrowDiv {
+    text-align: center;
+
+    h4 {
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: $secondary;
+        font-weight: bold;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+        }
+    }
+
+    img {
+        width: 8%;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+        }
+    }
+}
+
+.fold {
+    display: none;
+}
+
+.unfold {
+    display: block;
+}

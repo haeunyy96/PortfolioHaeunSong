@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Capriola&family=Sen&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -293,7 +293,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+button {
   margin: 0;
 }
 
@@ -305,19 +306,20 @@ h4 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
 }
 
 h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
   font-size: 2rem;
 }
 
-h4 {
+h3 {
   font-size: 1.25rem;
+  color: #B0B0B0;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 p {
@@ -352,10 +354,111 @@ button {
   font-family: "Sen", sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
-  padding: 10px 30px;
+  letter-spacing: 0.07rem;
+  padding: 10px 20px;
   margin-top: 20px;
 }
 button:hover, button:focus {
   cursor: pointer;
   transition: 0.4s;
+}
+
+.header {
+  margin: 100px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerPhoto {
+  width: 48%;
+}
+.headerPhoto img {
+  width: 100%;
+}
+
+.headerText {
+  width: 48%;
+}
+
+span {
+  color: #405082;
+}
+
+.arrowDiv {
+  text-align: center;
+}
+.arrowDiv h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #405082;
+  font-weight: bold;
+}
+.arrowDiv h4:hover, .arrowDiv h4:focus {
+  cursor: pointer;
+}
+.arrowDiv img {
+  width: 8%;
+}
+.arrowDiv img:hover, .arrowDiv img:focus {
+  cursor: pointer;
+}
+
+.fold {
+  display: none;
+}
+
+.unfold {
+  display: block;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 15px 0;
+  align-items: flex-start;
+}
+
+.logo {
+  font-family: "Capriola", sans-serif;
+  font-size: 1.5rem;
+  color: #405082;
+  padding-top: 5px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}
+.navList li {
+  padding-left: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.portfolioNav {
+  color: #192B64;
+}
+
+.aboutNav {
+  color: #B0B0B0;
+}
+
+.resumeBtn {
+  margin: 0;
+  background-color: #405082;
+  border: none;
+  border-radius: 4px 4px;
+}
+.resumeBtn a {
+  color: #fff;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted #B0B0B0;
+}
+
+.menuIcon,
+.slideOutNav {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
