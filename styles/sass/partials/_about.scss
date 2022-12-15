@@ -10,26 +10,30 @@
 
 .aboutFlex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
 
-    .aboutText {
-        width: 60%;
-
-        a {
-            color: $secondary;
-        }
+.aboutText {
+    a {
+        color: $secondary;
     }
 
-    .aboutImage {
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    p {
+        font-size: 1rem;
+    }
+}
 
-        img {
-            max-width: 100%;
-            border-radius: 100%;
-        }
+.aboutImage {
+    display: flex;
+    align-items: flex-end;
+    
+    h2 {
+        width: 45%;
+    }
+    img {
+        width: 45%;
+        border-radius: 100%;
     }
 }

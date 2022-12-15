@@ -491,23 +491,27 @@ hr {
 
 .aboutFlex {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.aboutFlex .aboutText {
-  width: 60%;
-}
-.aboutFlex .aboutText a {
+
+.aboutText a {
   color: #405082;
 }
-.aboutFlex .aboutImage {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.aboutText p {
+  font-size: 1rem;
 }
-.aboutFlex .aboutImage img {
-  max-width: 100%;
+
+.aboutImage {
+  display: flex;
+  align-items: flex-end;
+}
+.aboutImage h2 {
+  width: 45%;
+}
+.aboutImage img {
+  width: 45%;
   border-radius: 100%;
 }
 
@@ -518,7 +522,7 @@ hr {
 }
 .skills h2 {
   color: #192B64;
-  text-align: left;
+  text-align: center;
 }
 
 .skillsFlex {
@@ -534,10 +538,14 @@ hr {
 .skillsFlex p {
   padding-bottom: 5px;
   color: #192B64;
+  font-size: 1rem;
 }
 .skillsFlex i {
   font-size: 1.5rem;
   color: #405082;
+}
+.skillsFlex i:hover, .skillsFlex i:focus {
+  transform: scale(110%);
 }
 
 .projectsFlex {
@@ -632,6 +640,53 @@ hr {
 }
 .upArrowDiv img {
   transform: rotate(180deg);
+}
+
+.contact {
+  padding: 80px 80px;
+  text-align: center;
+}
+.contact h2 {
+  padding-bottom: 30px;
+  color: #192B64;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #B0B0B0;
+  background-color: transparent;
+  color: #192B64;
+  padding: 10px;
+  font-family: "Sen", sans-serif;
+}
+
+input {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  width: 41%;
+}
+
+textarea {
+  width: 85%;
+  border: 1px solid #B0B0B0;
+}
+
+#email {
+  margin-right: 0;
+}
+
+.contactButton {
+  border: 1px solid #405082;
+  border-radius: 20px 20px;
+  background-color: #405082;
+  color: #fff;
+}
+.contactButton:hover, .contactButton:focus {
+  background-color: transparent;
+  color: #405082;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .footer {

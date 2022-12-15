@@ -18,12 +18,12 @@
 </head>
 
 <body>
-    <nav id="top">
+    <nav id="aboutTop">
         <div class="wrapper navBar">
             <h3><a class="logo" href="index.html">hs</a></h3>
             <ul class="navList">
-                <li><a class="portfolioNav" href="index.html">Portfolio</a></li>
-                <li><a class="aboutNav" href=about.html>About</a></li>
+                <li><a class="aboutNav" href="index.html">Portfolio</a></li>
+                <li><a class="portfolioNav" href=about.html>About</a></li>
                 <li><button class="resumeBtn"><a href="assets/Haeun_Song_Resume.pdf">My resume ↗</a></button></li>
             </ul>
             <button class="menuIcon" id="hamburger">
@@ -49,9 +49,9 @@
     <main>
         <section class="about" id="about">
             <div class="wrapper aboutDiv">
-                <h2>About me.</h2>
                 <div class="aboutFlex">
                     <div class="aboutImage">
+                        <h2>About me.</h2>
                         <img src="assets/profile.JPEG" alt="">
                     </div>
                     <div class="aboutText">
@@ -113,7 +113,28 @@
                 </ul>
             </div>
         </section>
-
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <div class="insertMsg">
+                    <h2>Get in Touch 👋🏻</h2>
+                    <form action="mailto:haeunsong0615@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" placeholder="Name">
+        
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email" id="email" placeholder="Email Address">
+        
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea type="message" id=message rows="5" cols="30" placeholder="Message"></textarea>
+                        <br>
+                        <button class="contactButton" type="submit" value="Submit">Send</button>
+                    </form>
+                </div> <!-- END .insertMsg -->
+            </div>
+            <div class="upArrowDiv">
+                <a href="#aboutTop"><img class="upArrow" src="assets/Animated-Down-Arrow.gif" alt=""></a>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="wrapper footerFlex">

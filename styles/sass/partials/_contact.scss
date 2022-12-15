@@ -1,0 +1,50 @@
+.contact {
+
+    padding: 80px 80px;
+    text-align: center;
+
+    h2 {
+        padding-bottom: 30px;
+        color: $quaternary;
+    }
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid $tertiary;
+    background-color: transparent;
+    color: $quaternary;
+    padding: 10px;
+    font-family: $secondaryFont;
+}
+
+input {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 41%;
+}
+
+textarea {
+    width: 85%;
+    border: 1px solid $tertiary;
+}
+
+#email {
+    margin-right: 0;
+}
+
+.contactButton {
+    border: 1px solid $secondary;
+    border-radius: 20px 20px;
+    background-color: $secondary;
+    color: $primary;
+
+    &:hover,
+    &:focus {
+        background-color: transparent;
+        color: $secondary;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+}
