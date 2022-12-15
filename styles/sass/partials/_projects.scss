@@ -41,7 +41,7 @@
 
 .projectsTexts {
     width: 50%;
-    margin-left: 30px;
+    margin: 0 30px;
 
     hr {
         margin-top: 10px;
@@ -97,4 +97,13 @@
     img {
             transform: rotate(180deg);
         }
+}
+
+.spanFlex {
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+        margin-bottom: 2px;
+    }
 }

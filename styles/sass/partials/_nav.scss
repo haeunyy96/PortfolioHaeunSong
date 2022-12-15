@@ -1,7 +1,7 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0 15px 0;
+    padding: 35px 0 15px 0;
     align-items: flex-start;
 }
 .logo {
@@ -38,7 +38,7 @@
     border-radius: 4px 4px !important;
 
     a {
-        color: $primary;    
+        color: $primary !important;    
     }
 
     &:hover,
@@ -51,8 +51,19 @@ hr {
     border: none;
     border-top: 1px dotted $tertiary;
 }
+
+
 // slideOutNav
 .menuIcon,
 .slideOutNav {
     display: none;
+}
+
+.menuIcon {
+    margin: 0;
+    padding-top: 3px;
+    background-color: transparent;
+    border: none;
+    color: $secondary;
+    font-size: 1.2rem;
 }
