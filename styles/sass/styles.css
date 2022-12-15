@@ -486,6 +486,7 @@ hr {
 }
 .aboutDiv h2 {
   margin-bottom: 50px;
+  color: #192B64;
 }
 
 .aboutFlex {
@@ -496,6 +497,9 @@ hr {
 .aboutFlex .aboutText {
   width: 60%;
 }
+.aboutFlex .aboutText a {
+  color: #405082;
+}
 .aboutFlex .aboutImage {
   width: 30%;
   display: flex;
@@ -505,6 +509,35 @@ hr {
 .aboutFlex .aboutImage img {
   max-width: 100%;
   border-radius: 100%;
+}
+
+.skills {
+  background-color: #ECECEC;
+  padding: 100px 100px;
+  text-align: center;
+}
+.skills h2 {
+  color: #192B64;
+  text-align: left;
+}
+
+.skillsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.skillsFlex li {
+  width: 20%;
+  padding-bottom: 20px;
+}
+.skillsFlex p {
+  padding-bottom: 5px;
+  color: #192B64;
+}
+.skillsFlex i {
+  font-size: 1.5rem;
+  color: #405082;
 }
 
 .projectsFlex {

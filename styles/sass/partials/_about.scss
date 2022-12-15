@@ -4,6 +4,7 @@
 
     h2 {
         margin-bottom: 50px;
+        color: $quaternary;
     }
 }
 
@@ -14,6 +15,10 @@
 
     .aboutText {
         width: 60%;
+
+        a {
+            color: $secondary;
+        }
     }
 
     .aboutImage {

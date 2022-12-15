@@ -1,0 +1,32 @@
+.skills {
+    background-color: $quinary;
+    padding: 100px 100px;
+    text-align: center;
+
+    h2 {
+        color: $quaternary;
+        text-align: left;
+    }
+}
+
+.skillsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    li {
+        width: 20%;
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-bottom: 5px;
+        color: $quaternary;
+    }
+
+    i {
+        font-size: 1.5rem;
+        color: $secondary;
+    }
+}
