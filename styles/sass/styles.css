@@ -521,7 +521,7 @@ hr {
 }
 .aboutImage img {
   width: 45%;
-  border-radius: 100%;
+  border-radius: 2%;
 }
 
 .skills {
@@ -679,14 +679,14 @@ textarea {
 }
 
 input {
-  margin-right: 10px;
   margin-bottom: 15px;
-  width: 41%;
+  width: 100%;
 }
 
 textarea {
-  width: 85%;
+  width: 100%;
   border: 1px solid #B0B0B0;
+  margin-top: 5px;
 }
 
 .contactButton {
@@ -835,7 +835,7 @@ textarea {
     margin-bottom: 50px;
   }
   .aboutImage h2 {
-    display: none;
+    text-align: center;
   }
   .aboutImage img {
     width: 70%;
@@ -867,7 +867,6 @@ textarea {
   input {
     display: block;
     margin: auto;
-    width: 84%;
     margin-bottom: 5px;
   }
   textarea {

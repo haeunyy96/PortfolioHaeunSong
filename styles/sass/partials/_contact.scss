@@ -19,14 +19,15 @@ textarea {
 }
 
 input {
-    margin-right: 10px;
+    // margin-right: 10px;
     margin-bottom: 15px;
-    width: 41%;
+    width: 100%;
 }
 
 textarea {
-    width: 85%;
+    width: 100%;
     border: 1px solid $tertiary;
+    margin-top: 5px;
 }
 
 
