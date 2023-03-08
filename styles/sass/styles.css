@@ -520,7 +520,7 @@ hr {
   width: 45%;
 }
 .aboutImage img {
-  width: 45%;
+  width: 65%;
   border-radius: 2%;
 }
 
@@ -651,11 +651,11 @@ hr {
   transform: rotate(180deg);
 }
 
-.spanFlex {
+.projectSkills {
   display: flex;
   flex-wrap: wrap;
 }
-.spanFlex span {
+.projectSkills span {
   margin-bottom: 2px;
 }
 
@@ -821,6 +821,7 @@ textarea {
   }
   .projectsList {
     flex-direction: column;
+    width: 100%;
   }
   .projectsImages,
 .projectsTexts {
@@ -838,7 +839,7 @@ textarea {
     text-align: center;
   }
   .aboutImage img {
-    width: 70%;
+    width: 100%;
   }
   .aboutText h4 {
     color: #192B64;
